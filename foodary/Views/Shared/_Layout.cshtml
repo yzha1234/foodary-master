@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Foodary</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+    <link href="~/DataTables-1.10.21/media/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <!-- Responsive-->
+
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="~/images/logo.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    @*<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">*@
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    @* custom css *@
+    <link rel="stylesheet" type="text/css" href="~/css/custom_index.css" />
+
+    <link rel="stylesheet" href="~assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~assets/css/slicknav.css">
+    <link rel="stylesheet" href="~assets/css/flaticon.css">
+    <link rel="stylesheet" href="~assets/css/gijgo.css">
+    <link rel="stylesheet" href="~assets/css/animate.min.css">
+    <link rel="stylesheet" href="~assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="~assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="~assets/css/themify-icons.css">
+    <link rel="stylesheet" href="~assets/css/slick.css">
+    <link rel="stylesheet" href="~assets/css/nice-select.css">
+    <link rel="stylesheet" href="~assets/css/style.css">
+
+    @*<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyBB60Ip9iv28WTdf-vLI1guI2wM0GxyS5Y"></script>*@
+</head>
+
+<body>
+
+    <!-- <div class="header_section">
+         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-navbar">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="navbar-brand">
+                 <a href="~/Home/Home"><img src="~/images/logo_small.png"></a>
+             </div>
+             <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+                 <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                         <a class="nav-link" href="~/Home/Index">Home</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="~/Home/Map">Find food</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="~/Home/About">About us</a>
+                     </li>
+                 </ul>
+             </div>
+         </nav>
+     </div> -->
+    <div class="header-area">
+        <div class="main-header header-sticky">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- Logo -->
+                    <div class="col-xl-2 col-lg-2 col-md-1">
+                        <div class="logo">
+                            <a href="index.html"><img src="~/images/logo_small.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-10">
+                        <div class="menu-main d-flex align-items-center justify-content-end">
+
+                            <div class="main-menu f-right d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="~/Home/Index">Home</a></li>
+                                        <li><a href="~/Home/Map">Map</a></li>
+                                        <li><a href="~/Home/About">About</a></li>
+                                        <li><a href="~/Home/Fedback">Schedule</a></li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="header-right-btn f-right d-none d-lg-block ml-30">
+                                <a href="#" class="btn header-btn">SELF-TEST</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none">
+                            <div class="slicknav_menu">
+                                <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                                    <li><a href="~/Home/Index">Home</a></li>
+                                    <li><a href="~/Home/Map">Map</a></li>
+                                    <li><a href="~/Home/About">About</a></li>
+                                    <li><a href="~/Home/Fedback">Schedule</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div>
+        @RenderBody()
+        <footer class="footer_section" style="background-color: whitesmoke">
+            <p>&copy; @DateTime.Now.Year - Foodary</p>
+        </footer>
+    </div>
+    @*<script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>*@
+    <script src="~/DataTables-1.10.21/media/js/jquery.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/DataTables-1.10.21/media/js/jquery.dataTables.js"></script>
+
+
+    <!--<script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>-->
+    <!-- sidebar -->
+    <!--<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>-->
+    <!-- javascript -->
+    <!--<script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>-->
+    @*<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyBB60Ip9iv28WTdf-vLI1guI2wM0GxyS5Y"></script>*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+
+
+
